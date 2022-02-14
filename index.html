@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ======================== reset css ======================== -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+
+
+    <!-- ======================== responsive css ======================== -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <!-- ======================== style css ======================== -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ======================== Font awesome css ======================== -->
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="flex-container">
+                <div class="logo">
+                    <a href="#"> <img src="img/logo.png" alt="Logo" /></a>
+                </div>
+                <div class="menu-btn">
+                    <label for="menu-btn"><i class="far fa-bars"></i></label>
+                </div>
+                <input type="checkbox" name="menu" id="menu-btn" />
+                <div class="nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li>
+                            <a href="#about" class="nav-link">About</a>
+                            <label for="submenu1">About <i class="fal fa-chevron-down"></i></label>
+                            <input type="checkbox" name="" id="submenu1" />
+                            <ul class="ul1">
+                                <li><a href="#">About1</a></li>
+                                <li><a href="#">About2</a></li>
+                                <li><a href="#">About3</a></li>
+                                <li><a href="#">About4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#schedule">Schedules</a></li>
+                        <li><a href="#speaker">Speaker</a></li>
+                        <li>
+                            <a href="#event" class="nav-link">Events</a>
+                            <label for="submenu2">Event <i class="fal fa-chevron-down"></i></label>
+                            <input type="checkbox" name="" id="submenu2" />
+                            <ul class="ul2">
+                                <li><a href="#">Event1</a></li>
+                                <li><a href="#">Event2</a></li>
+                                <li><a href="#">Event3</a></li>
+                                <li><a href="#">Event4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#particles-js">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="book">
+                    <div class="search">
+                        <i class="far fa-search" id="msearch"></i>
+                    </div>
+                    <div class="mmain">
+                        <i class="fas fa-times"></i>
+                        <div class="msearch">
+                            <input type="text" id="sear" placeholder="Search Here">
+                            <label for="sear"><i class="fas fa-search"></i></label>
+                        </div>
+                    </div>
+                    <button>
+                        <span></span>
+                        <a href=""> BOOK A TICKET </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- ================== Header end ================== -->
+
+        <div class="banner scetion" id="home">
+            <div class="flex-container">
+                <div class="banner-main">
+                    <h1>
+                        MiExpo Digital <br /> Conference 2019
+                    </h1>
+                    <p>March 12 - 14, PrinceWell Hotel, California</p>
+                    <div class="btn">
+                        <button>
+                            <span> </span>
+                            <a href="">book a ticket</a>
+                        </button>
+                        <button>
+                            <span> </span>
+                            <a href="">video demo</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="banner-foot">
+                    <div class="ban-foot-left">
+                        <h4>Until Event Start</h4>
+                        <p>Time Remaining</p>
+                    </div>
+                    <div class="ban-foot-right">
+                        <div class="time" id="day">
+                            <h2>NA</h2>
+                        </div>
+                        <div class="time" id="hours">
+                            <h2>NA</h2>
+                        </div>
+                        <div class="time" id="minutes">
+                            <h2>NA</h2>
+                        </div>
+                        <div class="time" id="second">
+                            <h2>NA</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================== Banner Section end ================== -->
+
+        <div class="about scetion" id="about">
+            <div class="flex-container">
+                <div class="about-main">
+                    <div class="sec-title">
+                        <h6>About Us</h6>
+                        <h2>
+                            Welcome to biggest <br /> Conference 2021
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequuntur, corrupti nulla non deleniti voluptatem eaque at eum ut? Unde veniam exercitationem ipsam velit saepe perspiciatis excepturi voluptatum dolorem dicta?
+                        </p>
+                        <button>
+                            <span> </span>
+                            <a href="#"> Read More</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="icon"><i class="fas fa-play"></i></div>
+                    <div class="text">
+                        <h3>Discover What’s Ahead</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================== About Section end ================== -->
+
+        <div class="speaker scetion" id="speaker">
+            <div class="sec-title">
+                <h6>Welcome To MiExpo Conference</h6>
+                <h2>Our Speakers</h2>
+            </div>
+            <div class="flex-container">
+                <div class="speaker-main">
+                    <div class="content-top">
+                        <img src="img/team-1.jpg" alt="" />
+                    </div>
+                    <div class="content-bottom">
+                        <h4>Robert Gates</h4>
+                        <h6>Lead speaker</h6>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda veniam quam voluptatum maxime atque numquam aliquam illum et sapiente. Quidem!
+                        </p>
+                        <ul>
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="speaker-main">
+                    <div class="content-top">
+                        <img src="img/team-2.jpg" alt="" />
+                    </div>
+                    <div class="content-bottom">
+                        <h4>Nail Torl</h4>
+                        <h6>Lead speaker</h6>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda veniam quam voluptatum maxime atque numquam aliquam illum et sapiente. Quidem!
+                        </p>
+                        <ul>
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="speaker-main">
+                    <div class="content-top">
+                        <img src="img/team-3-1.jpg" alt="" />
+                    </div>
+                    <div class="content-bottom">
+                        <h4>Maris mem</h4>
+                        <h6>Lead speaker</h6>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda veniam quam voluptatum maxime atque numquam aliquam illum et sapiente. Quidem!
+                        </p>
+                        <ul>
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="speaker-main">
+                    <div class="content-top">
+                        <img src="img/team-4.jpg" alt="" />
+                    </div>
+                    <div class="content-bottom">
+                        <h4>Albar Stor</h4>
+                        <h6>Lead speaker</h6>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda veniam quam voluptatum maxime atque numquam aliquam illum et sapiente. Quidem!
+                        </p>
+                        <ul>
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================== Speaker Section end ================== -->
+
+        <div class="schedule scetion" id="schedule">
+            <div class="sec-title">
+                <h6>Welcome To MiExpo Conference</h6>
+                <h2>Our Schedule</h2>
+            </div>
+            <div class="flex-container" id="tabs">
+                <div class="schedule-day">
+                    <ul>
+                        <li>
+                            <a href="#tabs-1">
+                                First Day <br />
+                                <span>November 21, 2021</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tabs-2">
+                                Second Day <br />
+                                <span>November 22, 2021</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tabs-3">
+                                Third Day <br />
+                                <span>November 23, 2021</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="schedule-main" id="tabs-1">
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                9:00 am <br /> - - - <br /> 11:00 am
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-1.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comdo sed conseqa irure dolorn reprehenderit voluptate velit esse excepteur sint occaecats.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                9:00 am <br /> - - - <br /> 11:00 am
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-2.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comdo sed conseqa irure dolorn reprehenderit voluptate velit esse excepteur sint occaecats.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                9:00 am <br /> - - - <br /> 11:00 am
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-3.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comdo sed conseqa irure dolorn reprehenderit voluptate velit esse excepteur sint occaecats.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-main" id="tabs-2">
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                12:00 am <br /> - - - <br /> 2:00 pm
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-1.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Amet consectetur adipisicing elit. Commodi architecto explicabo, aut saepe tenetur hic temporibus mollitia voluptates distinctio expedita ea illo doloribus nostrum amet dolor ut, sequi officia eligendi.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                12:00 am <br /> - - - <br /> 2:00 pm
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-2.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Amet consectetur adipisicing elit. Commodi architecto explicabo, aut saepe tenetur hic temporibus mollitia voluptates distinctio expedita ea illo doloribus nostrum amet dolor ut, sequi officia eligendi.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                12:00 am <br /> - - - <br /> 2:00 pm
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-3.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Amet consectetur adipisicing elit. Commodi architecto explicabo, aut saepe tenetur hic temporibus mollitia voluptates distinctio expedita ea illo doloribus nostrum amet dolor ut, sequi officia eligendi.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-main" id="tabs-3">
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                9:00 pm <br /> - - - <br /> 11:00 pm
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-1.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi architecto explicabo, aut saepe tenetur hic temporibus mollitia voluptates distinctio expedita ea illo doloribus nostrum amet dolor ut, sequi officia eligendi.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                9:00 pm <br /> - - - <br /> 11:00 pm
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-2.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi architecto explicabo, aut saepe tenetur hic temporibus mollitia voluptates distinctio expedita ea illo doloribus nostrum amet dolor ut, sequi officia eligendi.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="schedule-content">
+                        <div class="sch-time">
+                            <h4>
+                                9:00 pm <br /> - - - <br /> 11:00 pm
+                            </h4>
+                        </div>
+                        <div class="sch-img">
+                            <img src="img/event-3.jpg" alt="Conference_img_1" />
+                        </div>
+                        <div class="sch-content">
+                            <h5>Focus On Dynamics Copy</h5>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi architecto explicabo, aut saepe tenetur hic temporibus mollitia voluptates distinctio expedita ea illo doloribus nostrum amet dolor ut, sequi officia eligendi.
+                            </p>
+                        </div>
+                        <div class="sch-btn">
+                            <button>
+                                <span> </span>
+                                <a href="#">
+                                    Read
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================== Schedule Section end ================== -->
+
+        <div class="company scetion" id="company">
+            <div class="wrapper">
+                <div class="flex-container" id="autoplay">
+                    <div class="com-img">
+                        <img src="img/com-1.png" alt="Company_img_1" />
+                    </div>
+                    <div class="com-img">
+                        <img src="img/com-2.png" alt="Company_img_2" />
+                    </div>
+                    <div class="com-img">
+                        <img src="img/com-3.png" alt="Company_img_3" />
+                    </div>
+                    <div class="com-img">
+                        <img src="img/com-4.png" alt="Company_img_4" />
+                    </div>
+                    <div class="com-img">
+                        <img src="img/com-5.png" alt="Company_img_5" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================== company Section end ================== -->
+
+        <div class="news scetion" id="event">
+            <div class="sec-title">
+                <h6>Welcome To MiExpo Conference</h6>
+                <h2>Our Event</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam corporis dignissimos adipisci ullam atque tenetur nihil reprehenderit, excepturi ipsum necessitatibus impedit dicta perspiciatis architecto accusamus eos quidem voluptates cupiditate. Reprehenderit.
+                </p>
+            </div>
+            <div class="flex-container">
+                <div class="news-content">
+                    <span></span><span></span><span></span><span></span>
+                    <div class="news-img"><img src="img/news-1.jpg" alt="" /></div>
+                    <div class="news-main">
+                        <h4>Houston Event Planning Management</h4>
+                        <p>
+                            Eabore dolore magn aliqua enim veniam quis nostrud exercitas reprehenderit
+                        </p>
+                        <ul>
+                            <li><i class="far fa-user"></i> miexpo</li>
+                            <li><i class="fal fa-calendar-alt"></i> July 10, 2019</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-content">
+                    <span></span><span></span><span></span><span></span>
+                    <div class="news-img"><img src="img/news-2.jpg" alt="" /></div>
+                    <div class="news-main">
+                        <h4>Houston Event Planning Management</h4>
+                        <p>
+                            Eabore dolore magn aliqua enim veniam quis nostrud exercitas reprehenderit
+                        </p>
+                        <ul>
+                            <li><i class="far fa-user"></i> miexpo</li>
+                            <li><i class="fal fa-calendar-alt"></i> July 10, 2019</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-content">
+                    <span></span><span></span><span></span><span></span>
+                    <div class="news-img"><img src="img/news-3.jpg" alt="" /></div>
+                    <div class="news-main">
+                        <h4>Houston Event Planning Management</h4>
+                        <p>
+                            Eabore dolore magn aliqua enim veniam quis nostrud exercitas reprehenderit
+                        </p>
+                        <ul>
+                            <li><i class="far fa-user"></i> miexpo</li>
+                            <li><i class="fal fa-calendar-alt"></i> July 10, 2019</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-content">
+                    <span></span><span></span><span></span><span></span>
+                    <div class="news-img"><img src="img/news-4.jpg" alt="" /></div>
+                    <div class="news-main">
+                        <h4>Houston Event Planning Management</h4>
+                        <p>
+                            Eabore dolore magn aliqua enim veniam quis nostrud exercitas reprehenderit
+                        </p>
+                        <ul>
+                            <li><i class="far fa-user"></i> miexpo</li>
+                            <li><i class="fal fa-calendar-alt"></i> July 10, 2019</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================== News Section end ================== -->
+
+        <div class="subscribe">
+            <div class="flex-container">
+                <img src="img/icon-1.png" alt="" /><img src="img/icon-2.png" alt="" />
+                <img src="img/icon-4.png" alt="" />
+                <h6>Get The Latest Updates</h6>
+                <h3>Signup For Newsletter</h3>
+                <div class="search">
+                    <input type="text" name="" id="" placeholder="Your Email *" />
+                    <button><span></span> <a href="#">Subscribe</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- ================== Subscribe Section end ================== -->
+        <div class="footer scetion">
+            <div class="flex-container">
+                <div class="footer-1" data-aos="fade-up" data-aos-duration="3000">
+                    <img src="img/logo.png" alt="" />
+                    <p>
+                        Elitm sed eiusmod tempor incididunt umst etsu dolore magna aliquatenim ad minim veniam quis nostrud exercitation ullamco laboris nis ex ea comdo consequat duis aute.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href=""><i class="fab fa-facebook-f icon"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-instagram icon"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-twitter icon"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-pinterest-p icon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-2" data-aos="fade-up" data-aos-duration="3000">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fal fa-envelope-open"></i> PrinceWell Hotel,
+                                California</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fal fa-phone-alt"></i> 624585478</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fal fa-envelope-open"></i> info@gamil.com</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fal fa-globe"></i> www.miexpo.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-3" data-aos="fade-up" data-aos-duration="3000">
+                    <h4>Main Link</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Speaker</a></li>
+                    </ul>
+                </div>
+                <div class="footer-4" data-aos="fade-up" data-aos-duration="3000">
+                    <h4>Gallery</h4>
+                    <table>
+                        <tr>
+                            <td><img src="img/s7.jpg" alt="" /></td>
+                            <td><img src="img/s8.jpg" alt="" /></td>
+                            <td><img src="img/news-1.jpg" alt="" /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/news-2.jpg" alt="" /></td>
+                            <td><img src="img/news-3.jpg" alt="" /></td>
+                            <td><img src="img/news-4.jpg" alt="" /></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2020 MiExpo. All rights reserved.</p>
+            </div>
+        </div>
+
+        <!-- ================== Footer Section end ================== -->
+
+        <!-- cursor animation -->
+        <div class="cursor"></div>
+        <div class="cursor2"></div>
+    </div>
+
+    <!-- ================== Main jQuery cdn link  ================== -->
+    <script src="js/jquery.js"></script>
+    <!-- ================== Main  link  ================== -->
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
